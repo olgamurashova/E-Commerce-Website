@@ -126,3 +126,47 @@ nav.fix-nav {
 .nav-list a:hover {
   color: var(--primary);
 }
+
+.nav-list .drop-menu1,
+.nav-list .drop-menu2 {
+
+box-shadow: 0 0 2px rgba(0, 0, 0, .3);
+width: 20rem;
+top: 8.5rem;
+line-height: 4.5rem;
+position: absolute;
+color: var(--white);
+/*opacity: 0;
+visibility: hidden;*/
+transition: all 300ms ease;
+
+}
+
+.nav-list .drop-menu1 li a,
+.nav-list .drop-menu2 li a {
+  display: block;
+  font-size: 1.5rem;
+  width: 100%;
+  padding: 0 0 0 1.5rem;
+  border-radius: 0;
+  color: var(--grey2);
+
+
+} 
+.nav-list .drop-menu1 li a:hover {
+  color: var(--primary);
+
+}
+.nav-list .drop-menu2 li a:hover {
+  color: var(--primary);
+
+}
+
+.nav-list li:hover .drop-menu1,
+.nav-list li:hover .drop-menu2,
+.nav-list li:hover .mega-box {
+  opacity: 1;
+  visibility: visible;
+  top: 6.5rem;
+}
+
