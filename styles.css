@@ -199,3 +199,48 @@ transition: all 300ms ease;
   height: 100%;
   object-fit: cover;
 }
+
+.mega-box .content .row header {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--grey1);
+
+}
+
+.mega-box .content .row .mega-links {
+  border-left: 1px solid rgba(255, 255, 255, .05);
+  margin-left: -4rem;
+
+}
+
+.mega-box .content li {
+  padding: 0 2 rem;
+
+}
+
+.mega-box .content li a {
+  padding: 0 2rem;
+  display: block;
+  font-size: 1.5rem;
+  color: var(--grey2);
+}
+
+.mega-box .content li a:hover {
+  color: var(--primary);
+}
+
+.nav-list .mobile-item {
+  display: none;
+}
+
+.nav-list input {
+  display: none;
+
+}
+
+.wrapper .btn {
+  color: var(--white);
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+}
