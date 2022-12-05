@@ -136,8 +136,8 @@ top: 8.5rem;
 line-height: 4.5rem;
 position: absolute;
 color: var(--white);
-*opacity: 0;
-visibility: hidden;6
+opacity: 0;
+visibility: hidden;
 transition: all 300ms ease;
 
 }
@@ -364,4 +364,47 @@ transition: all 300ms ease;
     flex-direction: column;
     padding: 2rem 2rem 0 2rem;
   }
+  .mega-box .content .row {
+    width: 100%;
+    border-top: 1px solid;
+    margin-bottom: 1.5rem;
+  }
+.content .row:nth-child(1),
+.content .row:nth-child(2) {
+  border-top: 0;
 }
+.content .row .mega-links {
+  border-left: 0;
+  padding: 2rem;
+}
+.content .row .mega-links {
+  margin: 0;
+}
+
+.wrapper .btn {
+  display: block;
+  color: var(--black);
+}
+
+.nav-list .top{
+  position: relative;
+  display: block;
+  background-color: var(--primary);
+  width: 100%;
+  height: 8rem;
+
+}
+
+.nav-list .close-btn {
+  position: absolute;
+  top: 1.5rem;
+  right: 2.5rem;
+  color: var(--white);
+
+}
+.nav-list .icons {
+  padding-left: 2rem;
+  
+
+}
+}  
