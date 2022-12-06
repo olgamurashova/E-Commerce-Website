@@ -552,3 +552,18 @@ transition: all 300ms ease;
 .arrows .swiper-next {
   right: 20px;
 }
+
+@media (max-width:657px) {
+  .hero .row .content {
+    left: 20px;
+  }
+
+  .hero .row .content h1 {
+    font-size: 3rem;
+  }
+
+  .hero .row .content p {
+    width: 80%;
+
+  }
+}
