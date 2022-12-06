@@ -672,3 +672,24 @@ transition: all 300ms ease;
   visibility: visible;
   opacity: 1;
 }
+
+@media (max-width: 1200px) {
+  .collection-content h3{
+    font-size: 1.6rem;
+    
+  }
+}
+
+@media (max-width: 996px) {
+  .collection-layout {
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+}
+
+@media (max-width: 768px) {
+  .collection-layout{
+    grid-template-columns: 1fr;
+
+  }
+}
