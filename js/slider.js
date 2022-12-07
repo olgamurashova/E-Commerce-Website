@@ -14,3 +14,33 @@ const swiper1 = new Swiper(".slider-1", {
   }
 }
 )
+
+/*SWIPER-2*/
+
+const swiper2 = new Swiper(".slider-2", {
+ 
+
+  grapbCursor: true,
+  spaceBetween: 30,
+  
+  navigation: {
+    nextEl: ".custom-next",
+    prevEl: ".custom-prev"
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+    
+    },
+
+    768: {
+      slidesPerView: 3,
+    },
+
+    1024: {
+      slidesPerView: 4,
+    }
+
+  }
+}
+)
