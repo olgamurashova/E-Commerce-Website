@@ -813,3 +813,29 @@ transition: all 300ms ease;
 }
 
 /*CAROUSEL FEATURED PRODUCTS*/
+
+.featuerd .arrows {
+  position: absolute;
+  top: 35%;
+  z-index: 10;
+  width: 100%;
+  right: 10%;
+}
+
+.featured .custom-next, 
+.featured .custom-prev {
+  position: absolute;
+  padding: .7rem 1rem;
+  background-color: var(--primary);
+  border-radius: 5px;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.featured .custom-prev {
+  left: 10px;
+
+}
+.featured .custom-next {
+  right: 10px;
+}
