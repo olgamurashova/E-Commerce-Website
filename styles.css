@@ -839,3 +839,24 @@ transition: all 300ms ease;
 .featured .custom-next {
   right: 10px;
 }
+
+@media (maxwidth: 996px) {
+  .row-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+}
+
+@media (maxwidth: 768px) {
+  .row-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+}
+
+@media (maxwidth: 567px) {
+  .row-container {
+    grid-template-columns: 1fr;
+  }
+  
+}
