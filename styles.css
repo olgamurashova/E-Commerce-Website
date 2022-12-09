@@ -803,3 +803,13 @@ transition: all 300ms ease;
   background-color: var(--primary);
   color: var(--white);
 }
+
+.product:hover .slide-icons {
+  transform: translate(0%, -50%);
+}
+
+.featured {
+  position: relative;
+}
+
+/*CAROUSEL FEATURED PRODUCTS*/
