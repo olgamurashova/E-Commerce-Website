@@ -860,3 +860,39 @@ transition: all 300ms ease;
   }
   
 }
+
+/*ADs*/
+
+.advert .advert-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+.advert-layout .item {
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.advert-layout img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  transition: all 300ms ease-in-out;
+ 
+}
+
+.advert-layout .content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.advert-layout .content.left {
+  right: 10px;
+}
+.advert-layout .content.right {
+  left: 10px;
+}
