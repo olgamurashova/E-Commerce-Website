@@ -976,3 +976,14 @@ transition: all 300ms ease;
 
 
 /*BRANDS bottom*/
+
+ .brands .swiper-container {
+  height: 100%;
+  width: 100%;
+ }
+
+ .brands .swiper-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ }
