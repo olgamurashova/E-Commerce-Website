@@ -943,3 +943,36 @@ transition: all 300ms ease;
 .advert-layout .item:hover img{
   transform: scale(1.1);
 }
+
+@media (max-width: 996px) {
+  .advert-layout .left {
+    right: 5px;
+  }
+
+  .advert-layout .right {
+    left: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+ .advert .advert-layout {
+  grid-template-columns: 1fr;
+ }
+}
+
+@media (max-width: 567px) {
+  .advert .advert-layout .content span{ 
+    font-size: 1.5rem;
+    margin-bottom: .6rem;
+  }
+  .advert .advert-layout .content h3{
+    font-size: 2rem;
+    margin-bottom: .6rem;
+  }
+  .advert .advert-layout .content a{
+    transition: all 3ooms ease-in-out;
+  }
+  }
+
+
+/*BRANDS bottom*/
