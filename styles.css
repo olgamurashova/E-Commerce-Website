@@ -987,3 +987,48 @@ transition: all 300ms ease;
   height: 100%;
   object-fit: cover;
  }
+
+ /*FOOTER*/
+
+ .footer {
+  background-color: var(--black);
+  padding: 6rem 1rem;
+  line-height: 3rem;
+ }
+
+ .footer-center span {
+  margin-right: 1rem;
+ }
+
+ .footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  color: var(--white);
+ }
+
+ .footer-center a:link,
+ .footer-center a:visited {
+  display: block;
+  color: #f1f1f1;
+  transition: .6s;
+ }
+
+ .footer-center a:hover {
+  color: var(--primary);
+ }
+
+ .footer-center div {
+  color: #f1f1f1;
+  font-size: 1.4rem;
+
+ }
+
+ .footer-center h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+ }
+
+ .footer .payment-methods {
+  margin-top: 2rem;
+ }
